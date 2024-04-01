@@ -1,3 +1,2 @@
-<h1>Basura ni Billones: A Website on Proper Segregation and Waste Disposal</h1>
-<hr>
+<h1>Basura ni Billones: A Website that Teaches Proper Waste Disposal</h1>
 **Website Preview Link:** https://cocoa-appleseed.github.io/BasuraNiBillones/index.html
