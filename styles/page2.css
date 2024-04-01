@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playpen+Sans:wght@100..800&display=swap');
+
+body {
+    margin: 0;
+    color: #272144;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: #87C8F4;
+    background-image: url("../images/paperbackground4.png");
+    background-size: cover;
+    background-position: center center;
+    object-fit: contain;
+}
+
+.inputnamewindow {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 11vw;
+}
+
+.message {
+    font-size: 4.5vw;
+    text-shadow: 0 0 3vw rgb(0, 0, 0);
+    font-family: "Grandstander", sans;
+}
+
+#inputname {
+    margin-top: 3.5vw;
+    font-size: 3vw;
+    padding: 2.8vw 5.625vw;
+    color: #284d1e;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    border-radius: 2vw;
+    outline: white;
+}
+
+.submit {
+    margin: auto;
+    margin-top: 1.6vw;
+    color: #284d1e;
+    background: #baeaad;
+    border-radius: 1vw;
+    width: 10vw;
+    font-weight: 700;
+    font-family: "Grandstander", sans-serif;
+    font-size: 1.6vw;
+    padding: 1vw;
+    padding-top: 1.3vw;
+    cursor: pointer;
+}
