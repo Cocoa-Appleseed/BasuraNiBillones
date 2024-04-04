@@ -41,8 +41,21 @@ body {
     font-weight: 600;
 }
 
-.continue {
+#continue {
     width: 20vw;
+    margin: auto;
+    font-size: 2vw;
+    padding: 1vw;
+    padding-top: 1.2vw;
+    font-family: "Grandstander", sans;
+    background: none;
+    border-radius: 1.2vw;
+    cursor: pointer;
+    margin-top: 3vw;
+}
+
+#back {
+    width: 5vw;
     margin: auto;
     font-size: 2vw;
     padding: 1vw;
@@ -66,4 +79,12 @@ body {
     z-index: -0.9;
     max-height: 20vw;
     bottom: 0;
+}
+
+.throw {
+    position: absolute;
+    z-index: -0.9;
+    max-height: 36vw;
+    bottom: 0;
+    right: -5vw;
 }

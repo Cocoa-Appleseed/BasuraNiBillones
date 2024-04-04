@@ -8,8 +8,19 @@
         <script src="script/page4.js"></script>
         <div class="instructions">
             <div class="title">INSTRUCTIONS</div>
-            <div class="content">*content*</div>
-            <input class="continue" onclick="next()" type="button" value="START">
+            <div class="content">
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBlack Bins: <span style="color: rgb(113, 113, 113)">Non-biodegradables</span><br>
+                &nbsp&nbspGreen Bins: <span style="color: rgb(0, 143, 29)">Biodegradables</span><br>
+                &nbsp&nbsp&nbsp&nbspRed Bins: <span style="color: red">Special waste</span><br>
+                Blue Bins: <span style="color: rgb(71, 29, 209)">Recyclables</span><br>
+                &nbsp&nbsp&nbsp&nbsp&nbspYellow Bins: <span style="color: rgb(255, 247, 98)">Hazardous Waste</span><br>
+                <br>
+                Sort the waste according to its material type.<br>To throw the item, click the appropriate trash bin.
+            </div>
+            <span>
+                <input id="back" onclick="back()" type="button" value="<">
+                <input id="continue" onclick="next()" type="button" value="SUBMIT">
+            </span>        
         </div>
     </body>
 </html>

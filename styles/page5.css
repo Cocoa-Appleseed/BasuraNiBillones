@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playpen+Sans:wght@100..800&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: #272144;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: #87C8F4;
+    background-image: url("../images/paperbackground3.png");
+    background-size: cover;
+    background-position: center center;
+    object-fit: contain;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1.1vw;
+    max-height: max-content;
+    min-height: max-content;
+}
+
+.counter {
+    font-size: 4.5vw;
+    font-family: "Grandstander";
+    font-weight: 600;
+    text-align: left; 
+    margin-left: 0.9vw;
+    margin-right: 0.9vw;
+    padding-left: 0.2vw;
+    border-bottom: 0.2vw dotted #272144;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18.9vw;
+    padding-bottom: 0.5vw;
+    border-top: 0.2vw dotted #272144;
+}
+
+.billones {
+    height: calc(4vw*6.5);
+    width: calc(3vw*6.5);
+    margin: auto;
+}
+
+#itemname {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 1.7vw;
+    font-family: "Grandstander";
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.bin {
+    max-height: 12vw;
+    margin-left: 4vw;
+}
+
+.black-bin {
+    margin-left: 0;
+}

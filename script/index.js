@@ -5,3 +5,11 @@ function submit() {
         window.location.href = "page2.html";
     }
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector("#inputname").addEventListener("keyup", event => {
+        if(event.key !== "Enter") return; 
+        document.querySelector("#submit").click();
+        event.preventDefault();
+    });
+});

@@ -24,8 +24,9 @@ body {
 
 .content {
     font-family: "Playpen Sans";
+    margin: 0 8vw;
     margin-top: 1.5vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 .title {
@@ -35,8 +36,21 @@ body {
     font-weight: 600;
 }
 
-.continue {
+#continue {
     width: 20vw;
+    margin: auto;
+    font-size: 2vw;
+    padding: 1vw;
+    padding-top: 1.2vw;
+    font-family: "Grandstander", sans;
+    background: none;
+    border-radius: 1.2vw;
+    cursor: pointer;
+    margin-top: 3vw;
+}
+
+#back {
+    width: 5vw;
     margin: auto;
     font-size: 2vw;
     padding: 1vw;

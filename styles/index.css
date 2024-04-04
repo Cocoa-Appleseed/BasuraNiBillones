@@ -37,7 +37,7 @@ body {
     outline: white;
 }
 
-.submit {
+#submit {
     margin: auto;
     margin-top: 1.6vw;
     color: #284d1e;
