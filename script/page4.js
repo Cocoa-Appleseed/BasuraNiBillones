@@ -161,163 +161,163 @@ function check(bin) {
 function load(num) {
     switch (num) {
         case 1:
-            document.getElementById("item").src = "../images/trash/bio/Avocado.png";
+            document.getElementById("item").src = "images/trash/bio/Avocado.png";
             document.getElementById("itemname").innerHTML = "AVOCADO";
             break;
         case 2:
-            document.getElementById("item").src = "../images/trash/bio/Banana.png";
+            document.getElementById("item").src = "images/trash/bio/Banana.png";
             document.getElementById("itemname").innerHTML = "BANANA";
             break;
         case 3:
-            document.getElementById("item").src = "../images/trash/bio/Fish Bone.png";
+            document.getElementById("item").src = "images/trash/bio/Fish Bone.png";
             document.getElementById("itemname").innerHTML = "FISH BONE";
             break;
         case 4:
-            document.getElementById("item").src = "../images/trash/bio/Yellow Pad Paper.png";
+            document.getElementById("item").src = "images/trash/bio/Yellow Pad Paper.png";
             document.getElementById("itemname").innerHTML = "YELLOW PAD PAPER";
             break;
         case 5:
-            document.getElementById("item").src = "../images/trash/bio/Raw Chicken.png";
+            document.getElementById("item").src = "images/trash/bio/Raw Chicken.png";
             document.getElementById("itemname").innerHTML = "RAW CHICKEN";
             break;
         case 6:
-            document.getElementById("item").src = "../images/trash/bio/Rice.png";
+            document.getElementById("item").src = "images/trash/bio/Rice.png";
             document.getElementById("itemname").innerHTML = "RICE";
             break;
         case 7:
-            document.getElementById("item").src = "../images/trash/bio/Rotten Salad.png";
+            document.getElementById("item").src = "images/trash/bio/Rotten Salad.png";
             document.getElementById("itemname").innerHTML = "ROTTEN SALAD";
             break;
         case 8:
-            document.getElementById("item").src = "../images/trash/bio/Tomato.png";
+            document.getElementById("item").src = "images/trash/bio/Tomato.png";
             document.getElementById("itemname").innerHTML = "TOMATO";
             break;
         case 9:
-            document.getElementById("item").src = "../images/trash/haz/air freshener.png";
+            document.getElementById("item").src = "images/trash/haz/air freshener.png";
             document.getElementById("itemname").innerHTML = "AIR FRESHENER";
             break;
         case 10:
-            document.getElementById("item").src = "../images/trash/haz/disposable gloves.png";
+            document.getElementById("item").src = "images/trash/haz/disposable gloves.png";
             document.getElementById("itemname").innerHTML = "USED GLOVES";
             break;
         case 11:
-            document.getElementById("item").src = "../images/trash/haz/face mask.png";
+            document.getElementById("item").src = "images/trash/haz/face mask.png";
             document.getElementById("itemname").innerHTML = "USED FACE MASK";
             break;
         case 12:
-            document.getElementById("item").src = "../images/trash/haz/hairspray.png";
+            document.getElementById("item").src = "images/trash/haz/hairspray.png";
             document.getElementById("itemname").innerHTML = "HAIRSPRAY";
             break;
         case 13:
-            document.getElementById("item").src = "../images/trash/haz/lighter.png";
+            document.getElementById("item").src = "images/trash/haz/lighter.png";
             document.getElementById("itemname").innerHTML = "LIGHTER";
             break;
         case 14:
-            document.getElementById("item").src = "../images/trash/haz/rusty knife.png";
+            document.getElementById("item").src = "images/trash/haz/rusty knife.png";
             document.getElementById("itemname").innerHTML = "RUSTY KNIFE";
             break;
         case 15:
-            document.getElementById("item").src = "../images/trash/haz/rusty scissors.png";
+            document.getElementById("item").src = "images/trash/haz/rusty scissors.png";
             document.getElementById("itemname").innerHTML = "RUSTY SCISSORS";
             break;
         case 16:
-            document.getElementById("item").src = "../images/trash/haz/used diaper.png";
+            document.getElementById("item").src = "images/trash/haz/used diaper.png";
             document.getElementById("itemname").innerHTML = "USED DIAPER";
             break;
         case 17:
-            document.getElementById("item").src = "../images/trash/nonbio/Bag of Chips (Clover).png";
+            document.getElementById("item").src = "images/trash/nonbio/Bag of Chips (Clover).png";
             document.getElementById("itemname").innerHTML = "BAG OF CHIPS (CLOVER)";
             break;
         case 18:
-            document.getElementById("item").src = "../images/trash/nonbio/Bag of Chips (Roller Coaster).png";
+            document.getElementById("item").src = "images/trash/nonbio/Bag of Chips (Roller Coaster).png";
             document.getElementById("itemname").innerHTML = "BAG OF CHIPS (ROLLER COASTER)";
             break;
         case 19:
-            document.getElementById("item").src = "../images/trash/nonbio/Broken Glass (Shard).png";
+            document.getElementById("item").src = "images/trash/nonbio/Broken Glass (Shard).png";
             document.getElementById("itemname").innerHTML = "BROKEN GLASS (SHARD)";
             break;
         case 20:
-            document.getElementById("item").src = "../images/trash/nonbio/Bubble Gum.png";
+            document.getElementById("item").src = "images/trash/nonbio/Bubble Gum.png";
             document.getElementById("itemname").innerHTML = "BUBBLE GUM";
             break;
         case 21:
-            document.getElementById("item").src = "../images/trash/nonbio/Bubble Wrap.png";
+            document.getElementById("item").src = "images/trash/nonbio/Bubble Wrap.png";
             document.getElementById("itemname").innerHTML = "BUBBLE WRAP";
             break;
         case 22:
-            document.getElementById("item").src = "../images/trash/nonbio/Correction Tape.png";
+            document.getElementById("item").src = "images/trash/nonbio/Correction Tape.png";
             document.getElementById("itemname").innerHTML = "CORRECTION TAPE";
             break;
         case 23:
-            document.getElementById("item").src = "../images/trash/nonbio/Disposable Spoon.png";
+            document.getElementById("item").src = "images/trash/nonbio/Disposable Spoon.png";
             document.getElementById("itemname").innerHTML = "DISPOSABLE SPOON";
             break;
         case 24:
-            document.getElementById("item").src = "../images/trash/nonbio/Plastic Bag.png";
+            document.getElementById("item").src = "images/trash/nonbio/Plastic Bag.png";
             document.getElementById("itemname").innerHTML = "PLASTIC BAG";
             break;
         case 25:
-            document.getElementById("item").src = "../images/trash/rec/Carton Box.png";
+            document.getElementById("item").src = "images/trash/rec/Carton Box.png";
             document.getElementById("itemname").innerHTML = "CARTON BOX";
             break;
         case 26:
-            document.getElementById("item").src = "../images/trash/rec/Coke.png";
+            document.getElementById("item").src = "images/trash/rec/Coke.png";
             document.getElementById("itemname").innerHTML = "GLASS BOTTLE OF COCA-COLA";
             break;
         case 27:
-            document.getElementById("item").src = "../images/trash/rec/Glass Jar.png";
+            document.getElementById("item").src = "images/trash/rec/Glass Jar.png";
             document.getElementById("itemname").innerHTML = "GLASS JAR";
             break;
         case 28:
-            document.getElementById("item").src = "../images/trash/rec/Magazines.png";
+            document.getElementById("item").src = "images/trash/rec/Magazines.png";
             document.getElementById("itemname").innerHTML = "MAGAZINES";
             break;
         case 29:
-            document.getElementById("item").src = "../images/trash/rec/Newspaper.png";
+            document.getElementById("item").src = "images/trash/rec/Newspaper.png";
             document.getElementById("itemname").innerHTML = "NEWSPAPERS";
             break;
         case 30:
-            document.getElementById("item").src = "../images/trash/rec/Sprite.png";
+            document.getElementById("item").src = "images/trash/rec/Sprite.png";
             document.getElementById("itemname").innerHTML = "BOTTLE OF SPRITE";
             break;
         case 31:
-            document.getElementById("item").src = "../images/trash/rec/Tin can.png";
+            document.getElementById("item").src = "images/trash/rec/Tin can.png";
             document.getElementById("itemname").innerHTML = "TIN CAN";
             break;
         case 32:
-            document.getElementById("item").src = "../images/trash/rec/Water Bottle.png";
+            document.getElementById("item").src = "images/trash/rec/Water Bottle.png";
             document.getElementById("itemname").innerHTML = "BOTTLE OF WATER";
             break;
         case 33:
-            document.getElementById("item").src = "../images/trash/spec/charger.png";
+            document.getElementById("item").src = "images/trash/spec/charger.png";
             document.getElementById("itemname").innerHTML = "CHARGER";
             break;
         case 34:
-            document.getElementById("item").src = "../images/trash/spec/desktop.png";
+            document.getElementById("item").src = "images/trash/spec/desktop.png";
             document.getElementById("itemname").innerHTML = "DESKTOP";
             break;
         case 35:
-            document.getElementById("item").src = "../images/trash/spec/keyboard.png";
+            document.getElementById("item").src = "images/trash/spec/keyboard.png";
             document.getElementById("itemname").innerHTML = "KEYBOARD";
             break;
         case 36:
-            document.getElementById("item").src = "../images/trash/spec/laser printer.png";
+            document.getElementById("item").src = "images/trash/spec/laser printer.png";
             document.getElementById("itemname").innerHTML = "LASER PRINTER";
             break;
         case 37:
-            document.getElementById("item").src = "../images/trash/spec/batteries.png";
+            document.getElementById("item").src = "images/trash/spec/batteries.png";
             document.getElementById("itemname").innerHTML = "BATTERIES";
             break;
         case 38:
-            document.getElementById("item").src = "../images/trash/spec/scanner.png";
+            document.getElementById("item").src = "images/trash/spec/scanner.png";
             document.getElementById("itemname").innerHTML = "SCANNER";
             break;
         case 39:
-            document.getElementById("item").src = "../images/trash/spec/speaker.png";
+            document.getElementById("item").src = "images/trash/spec/speaker.png";
             document.getElementById("itemname").innerHTML = "SPEAKER";
             break;
         case 40:
-            document.getElementById("item").src = "../images/trash/spec/wristwatch.png";
+            document.getElementById("item").src = "images/trash/spec/wristwatch.png";
             document.getElementById("itemname").innerHTML = "WRISTWATCH";
             break;
     }

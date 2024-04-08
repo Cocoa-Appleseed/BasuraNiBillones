@@ -7,17 +7,17 @@ function load() {
         document.getElementById("message").innerHTML = "CONGRATS! Master ka pala ng waste segregation, ha! You got a score of…";
         document.getElementById("advice").innerHTML = "You have already successfully achieved mastery of waste management! Continue to apply this in real life, and Mother Earth would be happy!<br><br>For further improvements and learning, you can check out the links below:";
         document.getElementById("score").style.color = "rgb(0, 143, 29)";
-        document.getElementById("reaction").src = "../images/billones/hb-doublegood.png";
+        document.getElementById("reaction").src = "images/billones/hb-doublegood.png";
     } else if (score >= 60) {
         document.getElementById("message").innerHTML = "YIEEEEEE! Pasado siya! But still, you can do better pa. You got a score of…";
         document.getElementById("advice").innerHTML = "So close! A little bit more practice and learning would help you finally master your skills on waste management.<br><br>For improvements and learning, you can check out the links below:";
         document.getElementById("score").style.color = "rgb(71, 29, 209)";
-        document.getElementById("reaction").src = "../images/billones/hb-good.png";
+        document.getElementById("reaction").src = "images/billones/hb-good.png";
     } else {
         document.getElementById("message").innerHTML = "Yikes… Kailangan mong mag improve… You got a score of…";
         document.getElementById("advice").innerHTML = "Practice makes perfect! Greatly improve your skills on waste management for a better and cleaner environment for the years to come.<br><br>For improvements and learning, you can check out the links below:";
         document.getElementById("score").style.color = "red";
-        document.getElementById("reaction").src = "../images/billones/hb-doubledown.png";
+        document.getElementById("reaction").src = "images/billones/hb-doubledown.png";
     }
 }
 
