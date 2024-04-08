@@ -1,18 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 body {
+    opacity: 0;
     margin: 0;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    color: #272144;
-    font-family: "Montserrat", sans-serif;
+    color: #5E3B29;
+    font-family: "Roboto Serif", sans-serif;
     font-weight: 500;
-    background-color: #87C8F4;
-    background-image: url("../images/paperbackground4.png");
+    background-color: #F9E1D2;
+    background-image: url("../images/paperbackground.png");
     background-size: cover;
     background-position: center center;
     object-fit: contain;
+    user-select: none;
+    transition: opacity 1.5s;
 }
 
 .title {
@@ -20,16 +23,22 @@ body {
     flex-direction: column;
     text-align: center;
     margin-top: 4vw;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .hi {
-    font-family: "Grandstander", sans;
-    font-weight: 400;
-    font-size: 2vw;
+    font-weight: 350;
+    font-size: 1.5vw;
+    color: black;
+    text-decoration:underline #0000007c;
 }
 
 .itapon {
-    font-family: "Playpen Sans";
     margin-top: 3vw;
     font-size: 1.5vw;
 }
@@ -39,6 +48,7 @@ body {
     font-size: 6vw;
     font-family: "Grandstander";
     font-weight: 600;
+    text-shadow: 0.2vw 0.2vw 0.4vw rgb(150, 134, 121);
 }
 
 #continue {
@@ -46,12 +56,13 @@ body {
     margin: auto;
     font-size: 2vw;
     padding: 1vw;
-    padding-top: 1.2vw;
-    font-family: "Grandstander", sans;
-    background: none;
-    border-radius: 1.2vw;
+    font-family: "Roboto Serif", sans-serif;
+    background: white;
+    border-radius: 0.6vw;
+    border: 0.17vw solid #000000;
     cursor: pointer;
     margin-top: 3vw;
+    box-shadow: 0 0 0.7vw rgb(141, 141, 141);
 }
 
 #back {
@@ -59,12 +70,13 @@ body {
     margin: auto;
     font-size: 2vw;
     padding: 1vw;
-    padding-top: 1.2vw;
-    font-family: "Grandstander", sans;
-    background: none;
-    border-radius: 1.2vw;
+    font-family: "Roboto Serif", sans-serif;
+    background: white;
+    border-radius: 0.6vw;
+    border: 0.17vw solid #000000;
     cursor: pointer;
     margin-top: 3vw;
+    box-shadow: 0 0 0.7vw rgb(141, 141, 141);
 }
 
 .landfill {
@@ -77,8 +89,8 @@ body {
 .bins {
     position: absolute;
     z-index: -0.9;
-    max-height: 20vw;
-    bottom: 0;
+    max-height: 29vw;
+    bottom: 1.8vw;
 }
 
 .throw {

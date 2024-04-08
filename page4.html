@@ -4,23 +4,20 @@
         <title>Project 3.0</title>
         <link rel="stylesheet" href="styles/page4.css">
     </head>
-    <body onload="showname()">
+    <body onload="start()">
         <script src="script/page4.js"></script>
-        <div class="instructions">
-            <div class="title">INSTRUCTIONS</div>
-            <div class="content">
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBlack Bins: <span style="color: rgb(113, 113, 113)">Non-biodegradables</span><br>
-                &nbsp&nbspGreen Bins: <span style="color: rgb(0, 143, 29)">Biodegradables</span><br>
-                &nbsp&nbsp&nbsp&nbspRed Bins: <span style="color: red">Special waste</span><br>
-                Blue Bins: <span style="color: rgb(71, 29, 209)">Recyclables</span><br>
-                &nbsp&nbsp&nbsp&nbsp&nbspYellow Bins: <span style="color: rgb(255, 247, 98)">Hazardous Waste</span><br>
-                <br>
-                Sort the waste according to its material type.<br>To throw the item, click the appropriate trash bin.
+        <div class="app">
+            <div class="counter"><span id="counterval">01</span>/20</div>
+            <img id="item" src="">
+            <img class="billones" src="images/billones/def-holding.png">
+            <div id="itemname"></div>
+            <div class="choices">
+                <img class="bin" id="black-bin" onclick="check('black')" onmouseenter="hoverimage()" onmouseout="unhoverimage()" src="images/bins/blackbin.png" draggable="false">
+                <img class="bin" id="green-bin" onclick="check('green')" onmouseenter="hoverimage1()" onmouseout="unhoverimage1()" src="images/bins/greenbin.png" draggable="false">
+                <img class="bin" id="red-bin" onclick="check('red')" onmouseenter="hoverimage2()" onmouseout="unhoverimage2()" src="images/bins/redbin.png" draggable="false">
+                <img class="bin" id="blue-bin" onclick="check('blue')" onmouseenter="hoverimage3()" onmouseout="unhoverimage3()" src="images/bins/bluebin.png" draggable="false">
+                <img class="bin" id="yellow-bin" onclick="check('yellow')" onmouseenter="hoverimage4()" onmouseout="unhoverimage4()" src="images/bins/yellowbin.png" draggable="false">
             </div>
-            <span>
-                <input id="back" onclick="back()" type="button" value="<">
-                <input id="continue" onclick="next()" type="button" value="SUBMIT">
-            </span>        
         </div>
     </body>
 </html>

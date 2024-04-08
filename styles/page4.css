@@ -1,63 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 body {
+    opacity: 0;
     margin: 0;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    color: #272144;
-    font-family: "Montserrat", sans-serif;
+    color: #5E3B29;
+    font-family: "Roboto Serif", serif;
     font-weight: 500;
     background-color: #87C8F4;
-    background-image: url("../images/paperbackground4.png");
+    background-image: url("../images/paperbackground.png");
     background-size: cover;
     background-position: center center;
     object-fit: contain;
+    user-select: none;
+    transition: opacity 1.5s;
 }
 
-.instructions {
+.app {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 2vw;
+    margin-top: 0;
+    max-height: max-content;
+    min-height: max-content;
 }
 
-.content {
-    font-family: "Playpen Sans";
-    margin: 0 8vw;
-    margin-top: 1.5vw;
-    font-size: 2.4vw;
+.counter {
+    font-size: 4.5vw;
+    font-weight: 300;
+    text-align: left; 
+    padding-left: 1vw;
+    padding-bottom: 0.2vw;
+    border-bottom: 0.2vw solid #5E3B29;
+    background: white;
+    box-shadow: 0 0 1vw gray;
 }
 
-.title {
-    margin-top: 0.8vw;
-    font-size: 6vw;
-    font-family: "Grandstander";
-    font-weight: 600;
+.choices {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18.9vw;
+    padding-bottom: 0.5vw;
+    width: 62.5%;
+    bottom: 0;
+    border-top: 0.2vw solid #5E3B29;
+    box-shadow: 0 0 1vw gray;
+    background: white;
 }
 
-#continue {
-    width: 20vw;
+#item {
+    position: absolute;
+    max-width: 17vh;
+    max-height: 17vh;
+    top: 24dvh;
+    left: 43.5vw;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.billones {
+    position: absolute;
+    height: calc(4vh*13.5);
+    width: calc(3vh*13.5);
     margin: auto;
-    font-size: 2vw;
-    padding: 1vw;
-    padding-top: 1.2vw;
-    font-family: "Grandstander", sans;
-    background: none;
-    border-radius: 1.2vw;
-    cursor: pointer;
-    margin-top: 3vw;
+    top: 46vh;
+    left: 50vw;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-#back {
-    width: 5vw;
-    margin: auto;
-    font-size: 2vw;
-    padding: 1vw;
-    padding-top: 1.2vw;
-    font-family: "Grandstander", sans;
-    background: none;
-    border-radius: 1.2vw;
+#itemname {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 1.5vw;
+    font-size: 2.5vw;
+    font-weight: 400;
+}
+
+.bin {
     cursor: pointer;
-    margin-top: 3vw;
+    max-height: 12vw;
+    opacity: 1;
+}
+
+#black-bin {
+    opacity: 1;
 }

@@ -1,53 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 body {
     margin: 0;
-    color: #272144;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    background-color: #063A2B;
-    background-image: url("../images/paperbackground1.png");
+    color: #5E3B29;
+    font-family: "Roboto Serif", serif;
+    font-weight: 350;
+    background-color: #F9E1D2;
+    background-image: url("../images/paperbackground.png");
     background-size: cover;
     background-position: center center;
     object-fit: contain;
+    user-select: none;
+    transition: opacity 1s;
+    opacity: 0;
 }
 
 .inputnamewindow {
     color: white;
     justify-content: center;
     text-align: center;
-    margin-top: 11vw;
-}
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}   
 
 .message {
-    font-size: 4.5vw;
-    text-shadow: 0 0 3vw rgb(0, 0, 0);
-    font-family: "Grandstander", sans;
+    font-size: 3.5vw;
+    color: #5E3B29;
+    font-weight: 350;
 }
 
 #inputname {
-    margin-top: 3.5vw;
+    text-transform: uppercase;
+    margin-top: 2.6vw;
     font-size: 3vw;
-    padding: 2.8vw 5.625vw;
-    color: #284d1e;
-    font-weight: 600;
-    font-family: "Grandstander", sans-serif;
+    padding: 1.3vw 5vw;
+    color: #5E3B29;
+    font-weight: 400;
+    font-family: "Roboto Serif", sans-serif;
     text-align: center;
-    border-radius: 2vw;
+    border-radius: 1vw;
+    border: 0.17vw solid #5E3B29;
     outline: white;
+    background: none;
+    transition: 0.5s;
+}
+
+#inputname:focus {
+    box-shadow: 0 0 0.7vw rgb(141, 141, 141);
 }
 
 #submit {
     margin: auto;
-    margin-top: 1.6vw;
-    color: #284d1e;
-    background: #baeaad;
-    border-radius: 1vw;
+    margin-top: 1.5vw;
+    color: black;
+    border: 0.15vw solid #000000;
+    background: white;
+    border-radius: 0.6vw;
     width: 10vw;
-    font-weight: 700;
-    font-family: "Grandstander", sans-serif;
+    font-weight: 400;
+    font-family: "Roboto Serif", serif;
     font-size: 1.6vw;
     padding: 1vw;
-    padding-top: 1.3vw;
     cursor: pointer;
+    box-shadow: 0 0 0.7vw rgb(141, 141, 141);
 }

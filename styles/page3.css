@@ -1,39 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playpen+Sans:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
-body {
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    color: #272144;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    background-color: #87C8F4;
-    background-image: url("../images/paperbackground4.png");
-    background-size: cover;
-    background-position: center center;
-    object-fit: contain;
+html {
+    margin: 0; 
+    height: 100%; 
+    width: 100%;
+    scroll-behavior: smooth;
 }
 
-.introduction {
+body {
+    opacity: 0;
+    overflow-x: hidden;
+    margin: 0;
+    height: 100%;
+    width: 300%;
+    color: #5E3B29;
+    font-family: "Roboto Serif", sans-serif;
+    font-weight: 500;
+    background-color: #FAE8D7;
+    background-image: url("../images/paperbackground.png");
+    background-size: cover;
+    background-size: auto 100%;
+    background-position: center center;
+    object-fit: contain;
+    user-select: none;
+    transition: opacity 1.5s;
+}
+
+.pages {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 2vw;
+    left: 50%;
+    -ms-transform: translateX(-50);
+    transform: translateX(-50%);
+}
+
+.pages > input {
+    background: none;
+    border: 0.15vw solid #5e3b2982;
+    border-left: none;
+    padding: 0.4vw 0.6vw;
+    font-family: 'Roboto Serif', serif;
+    color: #5E3B2982;
+    cursor: pointer;
+}
+
+#left {
+    border: 0.15vw solid #5E3B29;
+    color: #5E3B29;
+    background: white;
+    border-top-left-radius: 0.4vw;
+    border-bottom-left-radius: 0.4vw;
+}
+
+#right {
+    border-top-right-radius: 0.4vw;
+    border-bottom-right-radius: 0.4vw;
+}
+
+#introduction {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-top: 2vw;
+    position: absolute;
+    top: 5.8vw;
+    left: 0;
+    width: 100%;
+}
+
+#inpshs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2vw;
+    position: absolute;
+    top: 5vw;
+    left: 100%;
+    width: 100%;
+}
+
+#instructions {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2vw;
+    position: absolute;
+    top: 4.3vw;
+    left: 200%;
+    width: 100%;
 }
 
 .content {
-    font-family: "Playpen Sans";
-    margin: 0 8vw;
-    margin-top: 1.5vw;
-    font-size: 2vw;
+    font-weight: 400;
+    margin: 0 20vw;
+    margin-top: 4vw;
+    font-size: 1.8vw;
+    color: black;
 }
 
 .title {
-    margin-top: 0.8vw;
-    font-size: 6vw;
-    font-family: "Grandstander";
-    font-weight: 600;
+    margin-top: 1.3vw;
+    font-size: 4vw;
+    font-weight: 400;
 }
 
 #continue {
@@ -41,12 +112,13 @@ body {
     margin: auto;
     font-size: 2vw;
     padding: 1vw;
-    padding-top: 1.2vw;
-    font-family: "Grandstander", sans;
-    background: none;
-    border-radius: 1.2vw;
+    font-family: "Roboto Serif", sans-serif;
+    background: white;
+    border-radius: 0.6vw;
+    border: 0.17vw solid #000000;
     cursor: pointer;
-    margin-top: 3vw;
+    margin-top: 5vw;
+    box-shadow: 0 0 0.7vw rgb(141, 141, 141);
 }
 
 #back {
@@ -54,10 +126,15 @@ body {
     margin: auto;
     font-size: 2vw;
     padding: 1vw;
-    padding-top: 1.2vw;
-    font-family: "Grandstander", sans;
-    background: none;
-    border-radius: 1.2vw;
+    font-family: "Roboto Serif", sans-serif;
+    background: white;
+    border-radius: 0.6vw;
+    border: 0.17vw solid #000000;
     cursor: pointer;
-    margin-top: 3vw;
+    margin-top: 5vw;
+    box-shadow: 0 0 0.7vw rgb(141, 141, 141);
+}
+
+a {
+    text-decoration: none;
 }

@@ -4,16 +4,57 @@
         <title>Project 3.0</title>
         <link rel="stylesheet" href="styles/page3.css">
     </head>
-    <body onload="showname()">
+    <body onLoad="gotofirst()">
         <script src="script/page3.js"></script>
-        <div class="introduction">
-            <div class="title">INTRODUCTION</div>
+        <div class="pages">
+            <input id="left" onclick="first();gotofirst()" type="button" value="Global Pollution"></input>
+            <input id="mid" onclick="second();gotosecond()" type="button" value="In PSHS"></input>
+            <input id="right" onclick="third();gotothird()" type="button" value="Instructions"></input>
+        </div>
+        <div id="introduction">
+            <div class="title">— PLASTIC POLLUTION WORLDWIDE —</div>
             <div class="content">
-                Plastic pollution has been a problem the world has struggled with for decades. Every year, 23  million tonnes of plastic waste leaks into aquatic ecosystems, polluting our lakes, rivers, and seas. Poor waste management helps in causing climate change, as well as air pollution, loss of habitats, water and soil contamination, alongside diseases like tuberculosis, pneumonia, and influenza. Pisay suffers from this problem as well, with people not knowing proper waste disposal, leading to bins full of mixed-up trash and additional labor for our utility workers. As the scholars’ pledge goes, we should be committed to the perpetration of the human race and the preservation of the universe that is its home. This project aims to educate or remind students and everyone about the importance of proper segregation and waste disposal.
+                Plastic pollution has been a problem the world has struggled with for decades. Every year, 23  million tonnes of plastic waste leaks into aquatic ecosystems, polluting our lakes, rivers, and seas. Poor waste management helps in causing climate change, as well as air pollution, loss of habitats, water and soil contamination, alongside diseases like tuberculosis, pneumonia, and influenza.
             </div>
             <span>
                 <input id="back" onclick="back()" type="button" value="<">
-                <input id="continue" onclick="next()" type="button" value="continue...">
+                <a href="#inpshs">
+                    <input id="continue" onclick="second()" type="button" value="continue...">
+                </a>
+            </span>        
+        </div>
+        <div id="inpshs">
+            <div class="title">— SEGREGATION PROBLEM IN PSHS —</div>
+            <div class="content">
+                Pisay suffers from this problem as well, with people not knowing proper waste disposal, leading to bins full of mixed-up trash and additional labor for our utility workers. As the scholars’ pledge goes, we should be committed to the perpetration of the human race and the preservation of the universe that is its home. This project aims to educate or remind students and everyone about the importance of proper segregation and waste disposal.
+            </div>
+            <span>
+                <a href="#introduction">
+                    <input id="back" onclick="first()" type="button" value="<">
+                </a>
+                <a href="#instructions">
+                    <input id="continue" onclick="third()" type="button" value="continue...">
+                </a>
+            </span>        
+        </div>
+        <div id="instructions">
+            <div class="title">— HOW TO PLAY —</div>
+            <div class="content">
+                <div style="padding-right: 8vw">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBlack Bins: <span style="color: rgb(113, 113, 113)">Non-Biodegradables</span><br>
+                    &nbsp&nbsp&nbsp&nbspGreen Bins: <span style="color: rgb(0, 143, 29)">Biodegradables</span><br>
+                    &nbsp&nbsp&nbsp&nbspRed Bins: <span style="color: red">Special Waste</span><br>
+                    Blue Bins: <span style="color: rgb(71, 29, 209)">Recyclables</span><br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbspYellow Bins: <span style="color: rgb(193, 187, 80)">Hazardous Waste</span><br>
+                </div>
+                <br>
+                Sort the waste according to its material type.<br>To throw the item, click the appropriate trash bin.
+            </div>
+            <span>
+                <a href="#inpshs">
+                    <input id="back" onclick="second()" type="button" value="<">
+                </a>
+                <input id="continue" onclick="next()" type="button" value="START">
             </span>        
         </div>
     </body>

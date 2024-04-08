@@ -4,19 +4,38 @@
         <title>Project 3.0</title>
         <link rel="stylesheet" href="styles/page5.css">
     </head>
-    <body onload="start()">
+    <body onLoad="gotofirst();load()">
         <script src="script/page5.js"></script>
-        <div class="app">
-            <div class="counter"><span id="counterval">00</span>/20</div>
-            <img class="billones" src="images/billones/def-holding.png">
-            <div id="itemname">ITEM NAME</div>
-            <div class="choices">
-                <img class="bin black-bin" src="images/bins/blackbin.png">
-                <img class="bin green-bin" src="images/bins/greenbin.png">
-                <img class="bin red-bin" src="images/bins/redbin.png">
-                <img class="bin blue-bin" src="images/bins/bluebin.png">
-                <img class="bin yellow-bin" src="images/bins/yellowbin.png">
-            </div>
+        <div class="pages">
+            <input id="left" onclick="first();gotofirst()" type="button" value="Results"></input>
+            <input id="right" onclick="second();gotosecond()" type="button" value="Advice and Suggestions"></input>
+        </div>
+        <div id="results">
+            <div id="message"></div>
+            <div id="score"></div>
+            <img id="reaction" src="">
+            <span>
+                <a href="#suggestions">
+                    <input id="continue" onclick="second()" type="button" value="continue...">
+                </a>
+            </span>        
+        </div>
+        <div id="suggestions">
+            <div id="advice">suggestions here</div>
+            <a href="https://emb.gov.ph/waste-segregation-advisory/" target="_blank">
+                <input type="button" id="link1" onclick="clicksound()" value="Advisory on Waste Segregation">
+            </a>
+            <a href="https://medium.com/@rekart/the-impact-of-waste-segregation-paving-the-way-to-a-sustainable-future-e24192008d69" target="_blank">
+                <input type="button" id="link2" onclick="clicksound()" value="Importance of Waste Segregation">
+            </a>
+            <span>
+                <a href="#results">
+                    <input id="back" onclick="first()" type="button" value="<">
+                </a>
+                <a>
+                    <input id="return" onclick="returnTitle()" type="button" value="RETURN TO TITLE PAGE">
+                </a>
+            </span>        
         </div>
     </body>
 </html>
