@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() { 
         document.querySelector('body').style.opacity = 1;
     }, 100)
-    bloop = new sound("../sounds/bloop.mp3");
-    trash = new sound("../sounds/trash.mp3");
-    accept = new sound("../sounds/accept.ogg");
-    deny = new sound("../sounds/deny.ogg");
+    bloop = new sound("sounds/bloop.mp3");
+    trash = new sound("sounds/trash.mp3");
+    accept = new sound("sounds/accept.ogg");
+    deny = new sound("sounds/deny.ogg");
 })
 
 function sound(src) {
